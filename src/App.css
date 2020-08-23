@@ -10,4 +10,26 @@
   background-color: white;
   padding: 15px;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_headerImage {
+  object-fit: contain;
+}
+.app_posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_posts_left{
+
+}
+.app_posts_right{
+margin-left: 20px;
+}
+
+.app_signup {
+  display: flex;
+  flex-direction: column;
 }
